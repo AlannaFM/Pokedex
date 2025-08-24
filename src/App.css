@@ -1,0 +1,152 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.conteudo {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.espaco-titulo {
+  display: flex;
+  align-self: flex-start;
+  text-align: start;
+  padding-left: 150px;
+}
+
+.titulo {
+  font-family: "DM Sans";
+  padding-bottom: 35px;
+  font-size: 48px;
+  padding: 40px;
+}
+
+.input-container {
+  position: relative;
+  width: 1020px;
+}
+
+.barra-pesquisa {
+  width: 100%;
+  height: 56px;
+  background-color: #f1f5f9;
+  color: #94a3b8;
+  padding: 15px 50px 15px 15px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  border: none;
+  border-radius: 10px;
+}
+
+.icone-pesquisa {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+}
+
+.card {
+  display: flex;
+  background-color: #85858515;
+  width: 325px;
+  height: auto;
+  text-align: start;
+  padding: 25px;
+  font-family: "DM Sans";
+  font-size: 18px;
+  border-radius: 24px;
+  gap: 20px;
+}
+
+.nome-pokemon{
+  text-transform: capitalize;
+}
+
+
+
+.info-card{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-card h3{
+  font-weight: 900;  
+}
+
+.info-card a{
+  width: auto;
+  height: 25px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #afafaf48;
+  border-radius: 15px;
+  padding-top: 3px;
+  /*color: rgba(95, 95, 95, 0.719);*/
+}
+
+
+.img-card {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-left: 0;
+}
+
+.container-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pokemons-cards {
+  display: flex;
+  max-width: 1080px ;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 30px;
+}
+
+.linha-card {
+  margin: 4px;
+  border-radius: 22px;
+}
+
+.linha-verde {
+  background-color: #7AC74C1A; 
+}
+
+.linha-laranja {
+  background-color:#EE81301A; 
+}
+
+.linha-azul {
+  background-color: #bfdbfe63; 
+}
+
